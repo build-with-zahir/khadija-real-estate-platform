@@ -1,0 +1,9 @@
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+</IfModule>
+
+<IfModule mod_headers.c>
+Header set X-Content-Type-Options "nosniff"
+</IfModule>
